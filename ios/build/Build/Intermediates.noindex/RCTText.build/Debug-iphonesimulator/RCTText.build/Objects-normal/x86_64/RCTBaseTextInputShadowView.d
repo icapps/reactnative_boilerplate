@@ -18,6 +18,7 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
