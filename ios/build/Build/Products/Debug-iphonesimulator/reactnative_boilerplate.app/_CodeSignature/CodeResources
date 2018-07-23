@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		ezDg69g6QIFfvC99BqRMWSlRj/4=
+		HA6n1RzixKF9TqjeX2UVh3+HaTc=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>PlugIns/reactnative_boilerplateTests.xctest.dSYM/Contents/Resources/DWARF/reactnative_boilerplateTests</key>
 		<data>
-		vfABEKVC3noc0UQ7SxqB5l1uwRM=
+		LngzzxRsojEYmH4Ords7JH4OOcY=
 		</data>
 		<key>PlugIns/reactnative_boilerplateTests.xctest/Info.plist</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>PlugIns/reactnative_boilerplateTests.xctest/reactnative_boilerplateTests</key>
 		<data>
-		SMlcYowGnb7B5la7bURlAlypMeo=
+		vLrtF6FsIjoxDTVlGT/Vh75onYs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ezDg69g6QIFfvC99BqRMWSlRj/4=
+			HA6n1RzixKF9TqjeX2UVh3+HaTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			IRbpY+mKIMz6av5ps6OYvl7ocrsv5jZ3p2T0gyCQcUU=
+			dVLJrDT7IYV9pu5yi4wfwRHZJpnF9UsSGkOVRC5+Uxs=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,11 +207,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vfABEKVC3noc0UQ7SxqB5l1uwRM=
+			LngzzxRsojEYmH4Ords7JH4OOcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			60IUIeQt06rpaVuoF6Ud/Xm4Xu2Max4eGGAOiYRLXlk=
+			yXdZIjBqWXaNUO8w2ebBwbSnbkr+ydrJ7NBYPXgXk8E=
 			</data>
 		</dict>
 		<key>PlugIns/reactnative_boilerplateTests.xctest/Info.plist</key>
@@ -240,11 +240,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SMlcYowGnb7B5la7bURlAlypMeo=
+			vLrtF6FsIjoxDTVlGT/Vh75onYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3+bdboYE5PQkNOtgvHhAKWwiY5GFDxnvKZJiUe2kzk=
+			ZRaK8Ms/wvJFUQF7Ms7nPV1kgosIi9qkWovypHuQg3c=
 			</data>
 		</dict>
 	</dict>
