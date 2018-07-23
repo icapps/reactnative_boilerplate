@@ -1,21 +1,21 @@
 dependencies: \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/third-party/folly-2016.09.26.00/folly/Conv.cpp \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Conv.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Conv.cpp \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Conv.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/implicit_cast.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/double-conversion.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/utils.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Demangle.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/FBString.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Portability.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Config.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/CPortability.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Hash.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/ApplyTuple.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Bits.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Builtins.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Assume.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/BitsDetail.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/BitIteratorDetail.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Demangle.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/FBString.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Portability.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Config.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/CPortability.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Hash.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/ApplyTuple.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Bits.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Builtins.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Assume.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/BitsDetail.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/BitIteratorDetail.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/iterator/iterator_adaptor.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/static_assert.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/config.hpp \
@@ -221,13 +221,13 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Likely.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV1.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV2.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Malloc.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/Malloc.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/BitsFunctexcept.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Traits.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Likely.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/SpookyHashV1.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/SpookyHashV2.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Malloc.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/Malloc.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/BitsFunctexcept.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Traits.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/add_cv.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/add_rvalue_reference.hpp \
@@ -338,17 +338,17 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/type_identity.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/integral_promotion.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/promote.hpp \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Expected.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Preprocessor.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Unit.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Range.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Constexpr.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/String.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Expected.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Preprocessor.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Unit.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Range.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Constexpr.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/String.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/boost_1_63_0/boost/operators.hpp \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/logging.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/log_severity.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/glog-0.3.4/src/glog/vlog_is_on.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/CpuId.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/RangeCommon.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/RangeSse42.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Math.h
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/CpuId.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/RangeCommon.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/RangeSse42.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Math.h

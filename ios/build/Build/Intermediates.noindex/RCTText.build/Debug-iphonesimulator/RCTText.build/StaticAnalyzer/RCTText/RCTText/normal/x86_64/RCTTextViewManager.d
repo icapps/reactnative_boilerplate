@@ -35,4 +35,5 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/Text/RCTTextView.h

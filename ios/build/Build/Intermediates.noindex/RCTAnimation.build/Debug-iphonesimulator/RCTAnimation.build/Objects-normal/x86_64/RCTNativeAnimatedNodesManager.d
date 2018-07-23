@@ -40,5 +40,6 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTSpringAnimation.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTSubtractionAnimatedNode.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTransformAnimatedNode.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.h

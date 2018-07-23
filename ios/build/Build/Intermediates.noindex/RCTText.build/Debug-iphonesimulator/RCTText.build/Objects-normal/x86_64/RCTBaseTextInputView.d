@@ -32,4 +32,5 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h

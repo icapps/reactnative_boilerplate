@@ -23,4 +23,8 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryShadowView.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h

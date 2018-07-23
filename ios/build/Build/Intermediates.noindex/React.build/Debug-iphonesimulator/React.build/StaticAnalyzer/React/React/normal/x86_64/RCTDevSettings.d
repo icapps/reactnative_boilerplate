@@ -16,8 +16,8 @@ dependencies: \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/Base/RCTLog.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
   /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
