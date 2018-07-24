@@ -1,5 +1,5 @@
-import Home from './home/Home';
+import Home from './home/Home.container';
 
 export {
   Home,
-}
+};
