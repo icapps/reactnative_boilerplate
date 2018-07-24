@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text as RNText, ViewPropTypes } from 'react-native';
+import { Text as RNText } from 'react-native';
 import PropTypes from 'prop-types';
 import { Colors, Translations } from '../../utils';
 
@@ -95,7 +95,7 @@ export const Text = ({ style, label, uppercase, ...props }) => {
 };
 
 Text.propTypes = {
-  style: PropTypes.oneOfType([ViewPropTypes.style, PropTypes.object]),
+  style: PropTypes.object,
   label: PropTypes.string,
   uppercase: PropTypes.bool,
 };
