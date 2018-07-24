@@ -6,6 +6,9 @@
     "node": true,
     "jest": true
   },
+  "globals": {
+    "__DEV__": false
+  },
   "parser": "babel-eslint",
   "plugins": [
     "react",
@@ -60,6 +63,17 @@
     "semi": [
       "error",
       "always"
+    ],
+    "import/prefer-default-export": false,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*test.js",
+          "**/*.spec.js",
+          "**/shallowTestHelper.js"
+        ]
+      }
     ]
   }
 }

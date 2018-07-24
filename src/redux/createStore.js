@@ -9,7 +9,7 @@ import rootReducer from './rootReducer';
 const middleware = [promiseMiddleware(), thunkMiddleware];
 
 // Logger MUST be the last middleware in the middleware array
-if (__DEV__ !== 'production') { // eslint-disable-line
+if (__DEV__ !== 'production') {
   const logger = createLogger({
     collapsed: true,
     logger: console,
