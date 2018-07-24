@@ -1,6 +1,7 @@
 import axios from 'axios';
+import config from 'react-native-config'
 
-const APP_API_HOST = 'https://reqres.in/api/'
+const APP_API_HOST = config.BASE_API_URL
 
 class Network {
   static getUrl(route) {
