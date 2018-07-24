@@ -11,13 +11,29 @@ yarn-debug.log*
 yarn-error.log*
 
 # android
-build/
+android/app/build/
 .idea
 .gradle
 local.properties
 */app-release.apk
 *.iml
 .vscode
+
+
+#ios
+ios/build/
+ios/assets/
+ios/main.jsbundle
+ios/main.jsbundle.meta
+*.pbxuser
+!default.pbxuser
+xcuserdata
+*.xccheckout
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
 
 # node.js
 node_modules/
