@@ -33,6 +33,7 @@
         "code": 300
       }
     ],
+    "object-curly-newline": "off",
     "jsx-a11y/href-no-hash": "off",
     "consistent-return": "off",
     "no-throw-literal": "off",
