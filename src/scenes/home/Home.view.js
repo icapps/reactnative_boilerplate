@@ -1,8 +1,9 @@
 import React from 'react';
-import { ActivityIndicator, View, Text, TouchableOpacity } from 'react-native';
+import { ActivityIndicator, View, Text } from 'react-native';
 import PropTypes from 'prop-types';
 import styles from './Home.styles';
 import { Colors, Translations } from '../../utils';
+import { TouchableFeedback } from '../../components';
 
 class Home extends React.Component {
   login = () => {
@@ -33,9 +34,9 @@ class Home extends React.Component {
           )}
         </View>
 
-        <TouchableOpacity style={styles.button} onPress={this.login}>
+        <TouchableFeedback style={styles.button} onPress={this.login}>
           <Text style={styles.buttonText}>{Translations.getLabel('home_action')}</Text>
-        </TouchableOpacity>
+        </TouchableFeedback>
       </View>
     );
   }
