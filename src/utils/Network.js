@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from 'react-native-config'
+import config from 'react-native-config';
 
 const APP_API_HOST = config.BASE_API_URL;
 
