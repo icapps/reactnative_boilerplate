@@ -10,14 +10,21 @@
     "__DEV__": false
   },
   "parser": "babel-eslint",
-  "plugins": [ "react", "react-native" ],
+  "plugins": [
+    "react",
+    "react-native"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,
       "modules": true
     }
   },
-  "extends": [ "eslint:recommended", "plugin:react/recommended", "airbnb-base" ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb-base"
+  ],
   "rules": {
     "class-methods-use-this": "off",
     "max-len": [
@@ -42,19 +49,32 @@
         "functions": "ignore"
       }
     ],
-    "padded-blocks": [ "error", "never" ],
+    "padded-blocks": [
+      "error",
+      "never"
+    ],
     "no-console": [
       "error",
       {
-        "allow": [ "warn", "error" ]
+        "allow": [
+          "warn",
+          "error"
+        ]
       }
     ],
-    "semi": [ "error", "always" ],
+    "semi": [
+      "error",
+      "always"
+    ],
     "import/prefer-default-export": false,
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [ "**/*test.js", "**/*.spec.js", "**/shallowTestHelper.js" ]
+        "devDependencies": [
+          "**/*test.js",
+          "**/*.spec.js",
+          "**/shallowTestHelper.js"
+        ]
       }
     ]
   }

@@ -17,9 +17,7 @@ class Home extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Text center style={styles.lead}>
-            {Translations.getLabel('home_description')}
-          </Text>
+          <Text center style={styles.lead} label='home_description' />
 
           <ActivityIndicator animating={this.props.isLoading} size="large" color={Colors.primary} />
 
