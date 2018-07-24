@@ -17,19 +17,22 @@ class Home extends React.Component {
       <View style={styles.container}>
         <View>
           <Text style={styles.lead}>{Translations.getLabel('home_description')}</Text>
+
           <ActivityIndicator animating={this.props.isLoading} size="large" color={Colors.primary} />
+
           {this.props.token && (
             <View style={styles.success}>
               <Text style={styles.tokenText}>{Translations.getLabel('home_login_success', { token: this.props.token })}</Text>
             </View>
           )}
+
           {this.props.serverError && (
             <View style={styles.error}>
               <Text style={styles.tokenText}>{Translations.getLabel('home_login_error', { token: this.props.serverError })}</Text>
             </View>
           )}
-
         </View>
+
         <TouchableOpacity style={styles.button} onPress={this.login}>
           <Text style={styles.buttonText}>{Translations.getLabel('home_action')}</Text>
         </TouchableOpacity>
