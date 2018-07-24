@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { Colors } from '../../utils';
 
 const styles = StyleSheet.create({
   container: {
@@ -10,25 +11,30 @@ const styles = StyleSheet.create({
   },
   lead: {
     textAlign: 'center',
+    paddingVertical: 20,
   },
   button: {
     marginTop: 10,
-    backgroundColor: 'rgb(255,45,85)',
+    backgroundColor: Colors.primary,
     borderRadius: 3,
     padding: 10,
   },
   buttonText: {
-    color: 'white',
+    color: Colors.white,
     textAlign: 'center',
   },
-  token: {
+  success: {
     borderRadius: 3,
-    marginTop: 10,
-    backgroundColor: 'rgb(0,122,255)',
+    backgroundColor: Colors.success,
+    padding: 10,
+  },
+  error: {
+    borderRadius: 3,
+    backgroundColor: Colors.error,
     padding: 10,
   },
   tokenText: {
-    color: 'white',
+    color: Colors.white,
     textAlign: 'center',
   },
 });
