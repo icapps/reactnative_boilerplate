@@ -7,4 +7,4 @@ export default {
   black: '#000000',
   success: '#41ba84',
   error: '#e84c3d',
-}
+};

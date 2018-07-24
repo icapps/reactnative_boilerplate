@@ -1,6 +1,6 @@
 import Network from './Network';
-import axios from 'axios';
-import APP_API_HOST from '../../appConstants';
+
+const APP_API_HOST = 'https://reqres.in/api/';
 
 describe('Network component', () => {
   describe('getUrl', () => {
@@ -36,7 +36,7 @@ describe('Network component', () => {
       const applicationJson = 'application/json';
 
       expect(headers['Content-Type']).toEqual(applicationJson);
-      expect(headers['Accept']).toEqual(applicationJson);
+      expect(headers.Accept).toEqual(applicationJson);
     };
 
     it('should return a headers object.', () => {
@@ -66,15 +66,15 @@ describe('Network component', () => {
   });
 
   describe('requests', () => {
-    const testRequest = promise => {
-      promise.then(data => {
+    const testRequest = (promise) => {
+      promise.then((data) => {
         expect(data.status).toEqual('200');
         expect(data.message).toEqual('success');
       });
     };
 
-    const testErrRequest = promise => {
-      promise.catch(err => {
+    const testErrRequest = (promise) => {
+      promise.catch((err) => {
         expect(err.errors[0].meta).toEqual('This is a mocked error response');
       });
     };
