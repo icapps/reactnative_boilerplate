@@ -72,7 +72,10 @@
         "devDependencies": [
           "**/*test.js",
           "**/*.spec.js",
-          "**/shallowTestHelper.js"
+          "**/shallowTestHelper.js", 
+          "**/storybook/*/*.js",
+          "**/storybook/*.js"
+
         ]
       }
     ]
