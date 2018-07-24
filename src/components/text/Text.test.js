@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallowTestHelper } from '../../utils';
+import shallowTestHelper from '../../utils/test/shallowTestHelper';
 import { Text } from './Text';
 
 describe('<Text> component', () => {
