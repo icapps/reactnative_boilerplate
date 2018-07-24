@@ -1,7 +1,7 @@
 import axios from 'axios';
 import config from 'react-native-config'
 
-const APP_API_HOST = config.BASE_API_URL
+const APP_API_HOST = config.BASE_API_URL;
 
 class Network {
   static getUrl(route) {
@@ -15,7 +15,7 @@ class Network {
     const headers = {};
 
     headers['Content-Type'] = 'application/json';
-    headers['Accept'] = 'application/json';
+    headers.Accept = 'application/json';
 
     return headers;
   }
@@ -23,17 +23,23 @@ class Network {
   static errorHandler(error) {
     if (error.response) {
       throw {
-        errors: (error.response.data && error.response.data.errors) || [{ code: '0', status: 500, title: 'Unknown error', meta: error.response }],
+        errors: (error.response.data && error.response.data.errors) || [{
+          code: '0', status: 500, title: 'Unknown error', meta: error.response,
+        }],
       };
     } else if (error.request) {
       // The request was made but no response was received
       throw {
-        errors: [{ code: '0', status: 500, title: 'Unknown error', meta: error.request }],
+        errors: [{
+          code: '0', status: 500, title: 'Unknown error', meta: error.request,
+        }],
       };
     } else {
       // Something happened in setting up the request that triggered an Error
       throw {
-        errors: [{ code: '0', status: 500, title: 'Unknown error', meta: error.message }],
+        errors: [{
+          code: '0', status: 500, title: 'Unknown error', meta: error.message,
+        }],
       };
     }
   }
