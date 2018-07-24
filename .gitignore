@@ -1,11 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# expo
-.expo/
-
-# dependencies
-/node_modules
-
 # misc
 .env.local
 .env.development.local
@@ -17,5 +11,17 @@ yarn-debug.log*
 yarn-error.log*
 
 # android
-**/.idea/workspace.xml **/.idea/tasks.xml
+build/
+.idea
 .gradle
+local.properties
+*/app-release.apk
+*.iml
+.vscode
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+coverage/
