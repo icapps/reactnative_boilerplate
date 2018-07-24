@@ -1,7 +1,5 @@
 import Network from './Network';
 
-const APP_API_HOST = 'https://reqres.in/api/';
-
 describe('Network component', () => {
   describe('getUrl', () => {
     it('should return the url if it starts with https', () => {
@@ -25,7 +23,7 @@ describe('Network component', () => {
     it('should return an appended url if it is not a valid url', () => {
       const route = '/thisIsARoute';
       const processedUrl = Network.getUrl(route);
-      expect(processedUrl).toEqual(`${APP_API_HOST}${route}`);
+      expect(processedUrl).toEqual(`https://www.validUrl.com${route}`);
     });
   });
 
