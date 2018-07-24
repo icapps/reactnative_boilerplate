@@ -1,6 +1,6 @@
 import React from 'react';
-import { Provider } from 'react-redux'
-import store from './src/redux/createStore'
+import { Provider } from 'react-redux';
+import store from './src/redux/createStore';
 import { Home } from './src/scenes';
 
 const App = () => (
