@@ -1,5 +1,4 @@
+import { Text } from './text/Text';
 import TouchableFeedback from './touchable/TouchableFeedback';
 
-export {
-  TouchableFeedback,
-};
+export { Text, TouchableFeedback };
