@@ -1,14 +1,14 @@
-package com.reactnative_boilerplate;
+package com.icapps.app;
 
 import android.app.Application;
 
-import com.facebook.react.ReactApplication;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
-import com.learnium.RNDeviceInfo.RNDeviceInfo;
+import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
 
 import java.util.Arrays;
 import java.util.List;
