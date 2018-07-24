@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-native start",
-    "android": "react-native run-android",
+    "android": "react-native run-android --variant=debug --appIdSuffix=debug",
     "ios": "react-native run-ios",
     "test": "jest",
     "lint": "eslint -c .eslintrc --ext .js src",
