@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme';  // eslint-disable-line
+import { shallow } from 'enzyme';
 
 const renderWrapper = component => shallow(component);
 
