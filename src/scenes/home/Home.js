@@ -13,6 +13,7 @@ class Home extends React.Component {
       password: 'reactnative',
     });
   };
+
   render() {
     return (
       <View style={styles.container}>
