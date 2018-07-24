@@ -1,9 +1,9 @@
 
-export const PENDING = 'PENDING'
-export const FULFILLED = 'FULFILLED'
-export const REJECTED = 'REJECTED'
+export const PENDING = 'PENDING';
+export const FULFILLED = 'FULFILLED';
+export const REJECTED = 'REJECTED';
 
-const defaultTypes = [PENDING, FULFILLED, REJECTED]
+const defaultTypes = [PENDING, FULFILLED, REJECTED];
 
 /**
  * @function promiseMiddleware
@@ -11,38 +11,38 @@ const defaultTypes = [PENDING, FULFILLED, REJECTED]
  * @returns {function} thunk
  */
 
-function isPromise (value) {
+function isPromise(value) {
   if (value !== null && typeof value === 'object') {
-    return value && typeof value.then === 'function'
+    return value && typeof value.then === 'function';
   }
 
-  return false
+  return false;
 }
 
-export default function promiseMiddleware () {
-  const promiseTypeSuffixes = defaultTypes
-  const promiseTypeSeparator = '_'
+export default function promiseMiddleware() {
+  const promiseTypeSuffixes = defaultTypes;
+  const promiseTypeSeparator = '_';
 
-  return ref => {
-    const { dispatch } = ref
-    return next => action => {
+  return (ref) => {
+    const { dispatch } = ref;
+    return next => (action) => {
       if (action.payload) {
         if (!isPromise(action.payload) && !isPromise(action.payload.promise)) {
-          return next(action)
+          return next(action);
         }
       } else {
-        return next(action)
+        return next(action);
       }
 
       // Deconstruct the properties of the original action object to constants
-      const { type, payload, meta } = action
+      const { type, payload, meta } = action;
 
       // Assign values for promise type suffixes
       const [
-              _PENDING,
-              _FULFILLED,
-              _REJECTED
-            ] = promiseTypeSuffixes
+        _PENDING,
+        _FULFILLED,
+        _REJECTED,
+      ] = promiseTypeSuffixes;
 
       /**
        * @function getAction
@@ -54,13 +54,13 @@ export default function promiseMiddleware () {
       const getAction = (newPayload, isRejected) => ({
         type: [type, isRejected ? _REJECTED : _FULFILLED].join(promiseTypeSeparator),
         ...((newPayload === null || typeof newPayload === 'undefined') ? {} : {
-          payload: newPayload
+          payload: newPayload,
         }),
         ...(meta !== undefined ? { meta } : {}),
         ...(isRejected ? {
-          error: true
-        } : {})
-      })
+          error: true,
+        } : {}),
+      });
 
       /**
        * Assign values for promise and data variables. In the case the payload
@@ -68,15 +68,14 @@ export default function promiseMiddleware () {
        * properties will be used. In the case the payload is a promise, the
        * value of the payload will be used and data will be null.
        */
-      let promise
-      let data
+      let promise;
+      let data;
 
       if (!isPromise(action.payload) && typeof action.payload === 'object') {
-        promise = payload.promise
-        data = payload.data
+        ({ data, promise } = payload);
       } else {
-        promise = payload
-        data = undefined
+        promise = payload;
+        data = undefined;
       }
 
       /**
@@ -87,8 +86,8 @@ export default function promiseMiddleware () {
       next({
         type: [type, _PENDING].join(promiseTypeSeparator),
         ...(data !== undefined ? { payload: data } : {}),
-        ...(meta !== undefined ? { meta } : {})
-      })
+        ...(meta !== undefined ? { meta } : {}),
+      });
 
       /*
        * @function handleReject
@@ -99,10 +98,10 @@ export default function promiseMiddleware () {
        * @params reason The reason the promise was rejected
        * @returns {object}
        */
-      const handleReject = reason => {
-        const rejectedAction = getAction(reason, true)
-        return dispatch(rejectedAction)
-      }
+      const handleReject = (reason) => {
+        const rejectedAction = getAction(reason, true);
+        return dispatch(rejectedAction);
+      };
 
       /*
        * @function handleFulfill
@@ -113,11 +112,11 @@ export default function promiseMiddleware () {
        * @returns {object}
        */
       const handleFulfill = (value = null) => {
-        const resolvedAction = getAction(value, false)
-        dispatch(resolvedAction)
+        const resolvedAction = getAction(value, false);
+        dispatch(resolvedAction);
 
-        return { value, action: resolvedAction }
-      }
+        return { value, action: resolvedAction };
+      };
 
       /**
        * Second, dispatch a rejected or fulfilled action. This flux standard
@@ -148,7 +147,7 @@ export default function promiseMiddleware () {
        *   }
        * }
        */
-      return promise.then(handleFulfill, handleReject)
-    }
-  }
+      return promise.then(handleFulfill, handleReject);
+    };
+  };
 }

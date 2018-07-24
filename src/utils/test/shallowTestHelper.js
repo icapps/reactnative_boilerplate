@@ -1,11 +1,8 @@
-import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow } from 'enzyme';  // eslint-disable-line
 
-renderWrapper = component => {
-  return shallow(component);
-};
+const renderWrapper = component => shallow(component);
 
-const shallowTester = component => {
+const shallowTester = (component) => {
   it('should render without crashing', () => {
     renderWrapper(component);
   });

@@ -1,5 +1,5 @@
 import Home from './home/Home';
 
 export {
-  Home,
-}
+  Home, // eslint-disable-line import/prefer-default-export
+};
