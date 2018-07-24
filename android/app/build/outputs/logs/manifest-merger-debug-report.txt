@@ -4,6 +4,7 @@ ADDED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/And
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-config] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-i18n] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-device-info] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [com.facebook.react:react-native:0.56.0] /Users/jasper/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/f3b5b9b798ef66e95011b8214a3bf2ab/AndroidManifest.xml:2:1-15:12
@@ -143,6 +144,8 @@ uses-sdk
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/jasper/iCapps/reactnative_boilerplate/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-config] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-i18n] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-i18n] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-device-info] /Users/jasper/iCapps/reactnative_boilerplate/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
