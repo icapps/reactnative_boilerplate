@@ -140,7 +140,8 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            // signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
+            // signingConfig signingConfigs.release // for production
             matchingFallbacks = ['release']
             manifestPlaceholders = [excludeSystemAlertWindowPermission: "true"]
         }
