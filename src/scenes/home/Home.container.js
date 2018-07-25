@@ -1,12 +1,12 @@
 import { connect } from 'react-redux';
-import { loginActions } from '../../redux';
+import { loginActions, loginSelectors } from '../../redux';
 import Home from './Home.view';
 
 const mapStateToProps = state => ({
-  isLoading: state.login.isLoading,
-  isLoggedIn: state.login.isLoggedIn,
-  serverError: state.login.serverError,
-  token: state.login.token,
+  isLoading: loginSelectors.isLoading(state),
+  isLoggedIn: loginSelectors.isLoggedIn(state),
+  serverError: loginSelectors.getServerError(state),
+  token: loginSelectors.getToken(state),
 });
 
 const mapDispatchToProps = {
