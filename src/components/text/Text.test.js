@@ -1,77 +1,83 @@
 import React from 'react';
+import { shallow } from 'enzyme';
 import shallowTestHelper from '../../utils/test/shallowTestHelper';
 import { Text } from './Text';
 
 describe('<Text> component', () => {
-  shallowTestHelper(<Text />);
-  test('renders the text component correctly', () => {
+  describe('renders the text component correctly', () => {
+    shallowTestHelper(<Text />);
   });
 
-  shallowTestHelper(<Text label="ok" />);
-  test('renders the label correctly', () => {
+  describe('renders the label correctly', () => {
+    shallowTestHelper(<Text label="ok" />);
   });
 
-  shallowTestHelper(<Text label="ok" italic />);
-  test('renders an italic font', () => {
+  describe('renders an italic font', () => {
+    shallowTestHelper(<Text label="ok" italic />);
   });
 
-  shallowTestHelper(<Text label="ok" bold />);
-  test('renders a bold font', () => {
+  describe('renders a bold font', () => {
+    shallowTestHelper(<Text label="ok" bold />);
   });
 
-  shallowTestHelper(<Text label="ok" black />);
-  test('renders a dark color', () => {
+  describe('renders a dark color', () => {
+    shallowTestHelper(<Text label="ok" black />);
   });
 
-  shallowTestHelper(<Text label="ok" white />);
-  test('renders a white color', () => {
+  describe('renders a white color', () => {
+    shallowTestHelper(<Text label="ok" white />);
   });
 
-  shallowTestHelper(<Text label="ok" lightGrey />);
-  test('renders a lightgrey color', () => {
+  describe('renders a lightgrey color', () => {
+    shallowTestHelper(<Text label="ok" lightGrey />);
   });
 
-  shallowTestHelper(<Text label="ok" primary />);
-  test('renders a primary color', () => {
+  describe('renders a primary color', () => {
+    shallowTestHelper(<Text label="ok" primary />);
   });
 
-  shallowTestHelper(<Text label="ok" error />);
-  test('renders an error color', () => {
+  describe('renders an error color', () => {
+    shallowTestHelper(<Text label="ok" error />);
   });
 
-  shallowTestHelper(<Text label="ok" light />);
-  test('renders a lightgrey color', () => {
+  describe('renders a lightgrey color', () => {
+    shallowTestHelper(<Text label="ok" light />);
   });
 
-  shallowTestHelper(<Text label="ok" xsmall />);
-  test('renders a xsmall fontsize', () => {
+  describe('renders a xsmall fontsize', () => {
+    shallowTestHelper(<Text label="ok" xsmall />);
   });
 
-  shallowTestHelper(<Text label="ok" small />);
-  test('renders a small fontsize', () => {
+  describe('renders a small fontsize', () => {
+    shallowTestHelper(<Text label="ok" small />);
   });
 
-  shallowTestHelper(<Text label="ok" medium />);
-  test('renders a medium fontsize', () => {
+  describe('renders a medium fontsize', () => {
+    shallowTestHelper(<Text label="ok" medium />);
   });
 
-  shallowTestHelper(<Text label="ok" large />);
-  test('renders a large fontsize', () => {
+  describe('renders a large fontsize', () => {
+    shallowTestHelper(<Text label="ok" large />);
   });
 
-  shallowTestHelper(<Text label="ok" xlarge />);
-  test('renders a xlarge fontsize', () => {
+  describe('renders a xlarge fontsize', () => {
+    shallowTestHelper(<Text label="ok" xlarge />);
   });
 
-  shallowTestHelper(<Text label="ok" left />);
-  test('renders a left textAlignment', () => {
+  describe('renders a left textAlignment', () => {
+    shallowTestHelper(<Text label="ok" left />);
   });
 
-  shallowTestHelper(<Text label="ok" right />);
-  test('renders a right textAlignment', () => {
+  describe('renders a right textAlignment', () => {
+    shallowTestHelper(<Text label="ok" right />);
   });
 
-  shallowTestHelper(<Text label="ok" center />);
-  test('renders a center textAlignment', () => {
+  describe('renders a center textAlignment', () => {
+    shallowTestHelper(<Text label="ok" center />);
+  });
+
+  test('should transform a text to uppercase', () => {
+    const wrapper = shallow(<Text uppercase label='ok' />);
+    expect(wrapper.dive().text()).toEqual('OK');
   });
 });
