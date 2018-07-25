@@ -5,6 +5,12 @@ import styles from './Home.styles';
 import { Colors, Translations } from '../../utils';
 import { Text, TouchableFeedback } from '../../components';
 
+// const x = {
+//   y: {
+//     z: 'test',
+//   },
+// };
+
 class Home extends React.Component {
   login = () => {
     this.props.login({
@@ -14,6 +20,7 @@ class Home extends React.Component {
   };
 
   render() {
+    // console.warn(x.y.z);
     return (
       <View style={styles.container}>
         <View>
