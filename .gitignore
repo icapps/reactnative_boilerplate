@@ -42,6 +42,9 @@ yarn-error.log
 package-lock.json
 coverage/
 
+# fastlane
+fastlane/report.xml
+
 # testing-fastlane
 fastlane-android/*
 fastlane-ios/*
