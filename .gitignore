@@ -44,6 +44,3 @@ coverage/
 
 # fastlane
 fastlane/report.xml
-
-# testing-fastlane
-.translations

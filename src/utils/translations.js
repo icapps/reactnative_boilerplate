@@ -1,8 +1,8 @@
 import I18n from 'react-native-i18n';
 import DeviceInfo from 'react-native-device-info';
 
-import en from '../../labels/en';
-import nl from '../../labels/nl';
+import en from '../../labels/en.json';
+import nl from '../../labels/nl.json';
 
 const getLabel = (key, inserts = {}) => I18n.t(key, inserts);
 
@@ -16,7 +16,6 @@ const getDeviceLanguage = () => {
   return 'en';
 };
 
-
 // Enable fallback for language keys. FE: en_US will fallback to en
 I18n.fallbacks = true;
 // Set default locale
@@ -25,11 +24,10 @@ I18n.locale = getDeviceLanguage();
 
 // Make translations object with all the labels
 const translations = {
-  en,
-  nl,
+  en: en.translations,
+  nl: nl.translations,
 };
 I18n.translations = translations;
-
 
 export default {
   doesLabelExists,
