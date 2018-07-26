@@ -15,7 +15,6 @@ jobs:
             echo "Node $(node -v)"
             echo "Yarn v$(yarn --version)"
       - run: yarn
-      - run: yarn ci
       - save_cache:
           key: yarn-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
