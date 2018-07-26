@@ -35,39 +35,15 @@ RELEASE_PROFILE_NAME = 'React Native Boilerplate App Store'
 ##############################
 
 lane :android_alpha do
-  ensure_git_status_clean         # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies            # yarn will ensure all needed dependencies are downloaded.
-  update_translations             # Get the latest translations
-  version_bump_android            # Bump the build version.
-  push_to_git_remote              # Push the changes to the origin.
-  build_android(buildVariant: 'alpha')            # Build the application with the buildVariant.
-  upload_to_hockey_android(buildType: 'alpha') # Deploy the apk to HockeyApp.
-  add_tag_android                 # Add tag
-  push_to_git_remote              # Push the changes to the origin.
+  bundle_upload_android(buildType: 'alpha')
 end
 
 lane :android_beta do
-  ensure_git_status_clean         # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies            # yarn will ensure all needed dependencies are downloaded.
-  update_translations             # Get the latest translations
-  version_bump_android            # Bump the build version.
-  push_to_git_remote              # Push the changes to the origin.
-  build_android(buildVariant: 'beta')            # Build the application with the buildVariant.
-  upload_to_hockey_android(buildType: 'beta') # Deploy the apk to HockeyApp.
-  add_tag_android                 # Add tag
-  push_to_git_remote              # Push the changes to the origin.
+  bundle_upload_android(buildType: 'beta')
 end
 
 lane :android_release do
-  ensure_git_status_clean         # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies            # yarn will ensure all needed dependencies are downloaded.
-  update_translations             # Get the latest translations
-  version_bump_android            # Bump the build version.
-  push_to_git_remote              # Push the changes to the origin.
-  build_android(buildType: 'release')            # Build the application with the buildVariant.
-  upload_to_hockey_android(buildType: 'release') # Deploy the apk to HockeyApp.
-  add_tag_android                 # Add tag
-  push_to_git_remote              # Push the changes to the origin.
+  bundle_upload_android(buildType: 'release')
 end
 
 ##########################
@@ -75,36 +51,21 @@ end
 ##########################
 
 lane :ios_alpha do
-  ensure_git_status_clean                 # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies                    # yarn will ensure all needed dependencies are downloaded.
-  update_translations                     # Get the latest translations
-  commit_translations                     # Commit the new translations
-  prepare_xcconfig(scheme_name: "Alpha")  # Use the correct scheme
-  increment_build_number                  # Updated the version
+  bundle_upload_ios(scheme_name: "Alpha")
   build_ios(export_options: export_options_for(:alpha)) # Build IPA
   upload_to_hockey_ios(releaseType: 'alpha')  # Upload IPA to hockey app
   commit_tag_and_push_ios(branch: 'develop')  # commit version bump and make a git tag and push to devlop
 end
 
 lane :ios_beta do
-  ensure_git_status_clean                 # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies                    # yarn will ensure all needed dependencies are downloaded.
-  update_translations                     # Get the latest translations
-  commit_translations                     # Commit the new translations
-  prepare_xcconfig(scheme_name: "Beta")   # Use the correct scheme
-  increment_build_number                  # Updated the version
+  bundle_upload_ios(scheme_name: "Beta")
   build_ios(export_options: export_options_for(:beta)) # Build IPA
   upload_to_hockey_ios(releaseType: 'beta')   # Upload IPA to hockey app
   commit_tag_and_push(branch: 'beta')     # commit version bump and make a git tag and push to devlop
 end
 
 lane :ios_release do
-  ensure_git_status_clean                 # Make sure the repository is clean before starting with the beta deployment process.
-  install_dependencies                    # yarn will ensure all needed dependencies are downloaded.
-  update_translations                     # Get the latest translations
-  commit_translations                     # Commit the new translations
-  prepare_xcconfig(scheme_name: "AppStore")   # Use the correct scheme
-  increment_build_number                  # Updated the version
+  bundle_upload_ios(scheme_name: "AppStore")
   build_ios(
     configuration: 'AppStore',
     export_options: export_options_for(:appstore)
@@ -117,6 +78,18 @@ end
 ###   PRIVATE LANES ANDROID  ###
 ################################
 
+private_lane :bundle_upload_android do |options|
+  ensure_git_status_clean         # Make sure the repository is clean before starting with the beta deployment process.
+  install_dependencies            # yarn will ensure all needed dependencies are downloaded.
+  update_translations             # Get the latest translations
+  version_bump_android            # Bump the build version.
+  push_to_git_remote              # Push the changes to the origin.
+  build_android(buildType: options[:buildType])  # Build the application with the buildVariant.
+  upload_to_hockey_android(buildType: options[:buildType]) # Deploy the apk to HockeyApp.
+  add_tag_android                 # Add tag
+  push_to_git_remote              # Push the changes to the origin.
+end
+
 private_lane :upload_to_hockey_android do |options|
   hockey(
     release_type: options[:buildType] == 'alpha' ? "2" : "0",  # We set the release type to be beta.
@@ -127,7 +100,7 @@ private_lane :upload_to_hockey_android do |options|
 end
 
 private_lane :build_android do |options|
-  sh "cd ../android/; ./gradlew clean app:assemble#{options[:buildVariant]}"
+  sh "cd ../android/; ./gradlew clean app:assemble#{options[:buildType]}"
 end
 
 private_lane :version_bump_android do
@@ -156,6 +129,15 @@ end
 ###########################
 ###  PRIVATE LANES IOS  ###
 ###########################
+
+private_lane :bundle_upload_ios do |options|
+  ensure_git_status_clean                 # Make sure the repository is clean before starting with the beta deployment process.
+  install_dependencies                    # yarn will ensure all needed dependencies are downloaded.
+  update_translations                     # Get the latest translations
+  commit_translations                     # Commit the new translations
+  prepare_xcconfig(scheme_name: options[:scheme_name])  # Use the correct scheme
+  increment_build_number                  # Updated the version
+end
 
 private_lane :upload_to_hockey_ios do |options|
   hockey(
