@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import { View, ViewPropTypes, Platform, TouchableOpacity, TouchableHighlight, TouchableNativeFeedback } from 'react-native';
 import PropTypes from 'prop-types';
 import { Colors } from '../../utils';
+import style from './TouchableFeedback.style';
 
 const THROTTLE = 500;
 
@@ -44,15 +45,17 @@ class TouchableFeedback extends PureComponent {
   };
 
   renderAndroid = () => (
-    <TouchableNativeFeedback
-      {...this.props}
-      style={{}} // empty style, to override the style object from props
-      onPress={this.onPress}
-      background={this.getRipple()}>
-      <View style={this.props.style}>
-        {this.props.children}
-      </View>
-    </TouchableNativeFeedback>
+    <View style={[this.props.androidContainer, !this.props.borderlessRipple && style.androidContainer]}>
+      <TouchableNativeFeedback
+        {...this.props}
+        style={{}} // empty style, to override the style object from props
+        onPress={this.onPress}
+        background={this.getRipple()}>
+        <View style={this.props.style}>
+          {this.props.children}
+        </View>
+      </TouchableNativeFeedback>
+    </View>
   );
 
   render() {
@@ -74,6 +77,7 @@ TouchableFeedback.propTypes = {
   borderlessRipple: PropTypes.bool,
   ripple: PropTypes.object,
   highLight: PropTypes.bool,
+  androidContainer: PropTypes.object,
 };
 
 TouchableFeedback.defaultProps = {
@@ -81,6 +85,7 @@ TouchableFeedback.defaultProps = {
   ripple: null,
   borderlessRipple: false,
   style: {},
+  androidContainer: {},
 };
 
 export default TouchableFeedback;
