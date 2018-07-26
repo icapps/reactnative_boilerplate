@@ -44,7 +44,6 @@ coverage/
 
 # fastlane
 fastlane/report.xml
-fastlane/Fastfile
 
 # testing-fastlane
 fastlane-android/*
