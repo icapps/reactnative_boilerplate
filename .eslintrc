@@ -33,6 +33,7 @@
         "code": 300
       }
     ],
+    "array-bracket-spacing": "off",
     "object-curly-newline": "off",
     "jsx-a11y/href-no-hash": "off",
     "consistent-return": "off",
@@ -72,7 +73,8 @@
         "devDependencies": [
           "**/*test.js",
           "**/*.spec.js",
-          "**/shallowTestHelper.js"
+          "**/shallowTestHelper.js",
+          "setupJest.js"
         ]
       }
     ]

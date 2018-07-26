@@ -19,7 +19,7 @@ class TouchableFeedback extends PureComponent {
         this.pressed = false;
       }, THROTTLE);
     }
-  }
+  };
 
   renderIos = () => {
     if (this.props.highLight) {
@@ -34,15 +34,14 @@ class TouchableFeedback extends PureComponent {
         {this.props.children}
       </TouchableOpacity>
     );
-  }
-
+  };
 
   getRipple = () => {
     if (this.props.borderlessRipple) {
       return TouchableNativeFeedback.SelectableBackgroundBorderless();
     }
     return this.props.ripple || TouchableNativeFeedback.SelectableBackground();
-  }
+  };
 
   renderAndroid = () => (
     <TouchableNativeFeedback
