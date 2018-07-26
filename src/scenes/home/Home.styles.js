@@ -10,7 +10,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   lead: {
-    textAlign: 'center',
     paddingVertical: 20,
   },
   button: {
