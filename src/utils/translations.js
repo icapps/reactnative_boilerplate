@@ -16,7 +16,6 @@ const getDeviceLanguage = () => {
   return 'en';
 };
 
-
 // Enable fallback for language keys. FE: en_US will fallback to en
 I18n.fallbacks = true;
 // Set default locale
@@ -29,7 +28,6 @@ const translations = {
   nl,
 };
 I18n.translations = translations;
-
 
 export default {
   doesLabelExists,

@@ -1,6 +1,6 @@
 {
   "name": "reactnative_boilerplate",
-  "version": "1.7.0",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0-alpha.14",
@@ -8,10 +8,13 @@
     "@storybook/addons": "^4.0.0-alpha.14",
     "@storybook/react-native": "^4.0.0-alpha.14",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "8.2.6",
-    "babel-preset-react-native": "^5.0.1",
     "babel-runtime": "^7.0.0-beta.3",
+    "@babel/core": "7.0.0-beta.54",
+    "@babel/runtime": "7.0.0-beta.54",
+    "babel-eslint": "9.0.0-beta.3",
+    "babel-preset-react-native": "5.0.2",
     "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
     "eslint": "v4.19.1",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-plugin-import": "2.13.0",
@@ -19,20 +22,27 @@
     "eslint-plugin-react-native": "3.2.1",
     "jest": "^23.4.1",
     "jest-react-native": "^18.0.0",
-    "react-dom": "16.4.1",
-    "react-test-renderer": "16.3.1"
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "16.4.1"
   },
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android --variant=debug --appIdSuffix=debug",
     "ios": "react-native run-ios",
-    "test": "jest",
     "lint": "eslint -c .eslintrc --ext .js src",
     "lint:fix": "eslint -c .eslintrc --ext .js src --fix",
-    "storybook": "storybook start -p 7007"
+    "storybook": "storybook start -p 7007",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "validate": "yarn lint && yarn test"
   },
   "jest": {
-    "preset": "react-native"
+    "automock": false,
+    "preset": "react-native",
+    "setupFiles": [
+      "./setupJest.js"
+    ]
   },
   "dependencies": {
     "axios": "^0.18.0",

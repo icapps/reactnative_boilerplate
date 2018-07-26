@@ -1,0 +1,1567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text> component renders a bold font should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    bold={true}
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bold": true,
+      "children": "Ok",
+      "style": Array [
+        Object {
+          "fontWeight": "bold",
+        },
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bold": true,
+        "children": "Ok",
+        "style": Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a center textAlignment should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    center={true}
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "center": true,
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "center": true,
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "center",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a dark color should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    black={true}
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "black": true,
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#000000",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "black": true,
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#000000",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a large fontsize should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    large={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "large": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 18,
+          "lineHeight": 26,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "large": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 18,
+            "lineHeight": 26,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a left textAlignment should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    left={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "left": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "left": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a lightgrey color should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    lightGrey={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "lightGrey": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#a7bdcc",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "lightGrey": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#a7bdcc",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a lightgrey color should match the snapshot 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    light={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "light": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "light": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a medium fontsize should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    medium={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "medium": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "medium": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a primary color should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    primary={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "primary": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#ff2d55",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "primary": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#ff2d55",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a right textAlignment should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    right={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "right": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "right",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "right": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "right",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a small fontsize should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    small={true}
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "small": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "small": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a white color should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+    white={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#ffffff",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+      "white": true,
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#ffffff",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+        "white": true,
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a xlarge fontsize should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+    xlarge={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 24,
+          "lineHeight": 32,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+      "xlarge": true,
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 24,
+            "lineHeight": 32,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+        "xlarge": true,
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders a xsmall fontsize should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+    xsmall={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 10,
+          "lineHeight": 14,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+      "xsmall": true,
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 10,
+            "lineHeight": 14,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+        "xsmall": true,
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders an error color should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    error={true}
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "error": true,
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#e84c3d",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "error": true,
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#e84c3d",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders an italic font should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    italic={true}
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "italic": true,
+      "style": Array [
+        Object {
+          "fontStyle": "italic",
+        },
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "italic": true,
+        "style": Array [
+          Object {
+            "fontStyle": "italic",
+          },
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders the label correctly should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label="ok"
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Ok",
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": "Ok",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Ok",
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": "Ok",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Text> component renders the text component correctly should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Text
+    label=""
+    style={Object {}}
+    uppercase={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "style": Array [
+        Object {},
+        Object {
+          "color": "#2c3b45",
+        },
+        Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "textDecorationLine": "none",
+        },
+        Object {},
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "style": Array [
+          Object {},
+          Object {
+            "color": "#2c3b45",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Object {
+            "textDecorationLine": "none",
+          },
+          Object {},
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
