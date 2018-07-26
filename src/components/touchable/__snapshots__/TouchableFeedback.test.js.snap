@@ -1,0 +1,2211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a borderless ripple should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={true}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={Object {}}
+        background={Object {}}
+        borderlessRipple={true}
+        disabled={false}
+        onPress={[Function]}
+        ripple={null}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {},
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {},
+        "background": Object {},
+        "borderlessRipple": true,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={Object {}}
+          background={Object {}}
+          borderlessRipple={true}
+          disabled={false}
+          onPress={[Function]}
+          ripple={null}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {},
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {},
+          "background": Object {},
+          "borderlessRipple": true,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": false,
+          "onPress": [Function],
+          "ripple": null,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a custom ripple should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={Object {}}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={Object {}}
+        background={Object {}}
+        borderlessRipple={false}
+        disabled={false}
+        onPress={[Function]}
+        ripple={Object {}}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {},
+        Object {
+          "overflow": "hidden",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {},
+        "background": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": Object {},
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={Object {}}
+          background={Object {}}
+          borderlessRipple={false}
+          disabled={false}
+          onPress={[Function]}
+          ripple={Object {}}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {},
+          Object {
+            "overflow": "hidden",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {},
+          "background": Object {},
+          "borderlessRipple": false,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": false,
+          "onPress": [Function],
+          "ripple": Object {},
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a disabled state should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={true}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={Object {}}
+        background={Object {}}
+        borderlessRipple={false}
+        disabled={true}
+        onPress={[Function]}
+        ripple={null}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {},
+        Object {
+          "overflow": "hidden",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {},
+        "background": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": true,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={Object {}}
+          background={Object {}}
+          borderlessRipple={false}
+          disabled={true}
+          onPress={[Function]}
+          ripple={null}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {},
+          Object {
+            "overflow": "hidden",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {},
+          "background": Object {},
+          "borderlessRipple": false,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": true,
+          "onPress": [Function],
+          "ripple": null,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a highLighted state should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    highLight={true}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={Object {}}
+        background={Object {}}
+        borderlessRipple={false}
+        disabled={false}
+        highLight={true}
+        onPress={[Function]}
+        ripple={null}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {},
+        Object {
+          "overflow": "hidden",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {},
+        "background": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": false,
+        "highLight": true,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={Object {}}
+          background={Object {}}
+          borderlessRipple={false}
+          disabled={false}
+          highLight={true}
+          onPress={[Function]}
+          ripple={null}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {},
+          Object {
+            "overflow": "hidden",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {},
+          "background": Object {},
+          "borderlessRipple": false,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": false,
+          "highLight": true,
+          "onPress": [Function],
+          "ripple": null,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders the TouchableFeedback component correctly should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={Object {}}
+        background={Object {}}
+        borderlessRipple={false}
+        disabled={false}
+        onPress={[Function]}
+        ripple={null}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {},
+        Object {
+          "overflow": "hidden",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {},
+        "background": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={Object {}}
+          background={Object {}}
+          borderlessRipple={false}
+          disabled={false}
+          onPress={[Function]}
+          ripple={null}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {},
+          Object {
+            "overflow": "hidden",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {},
+          "background": Object {},
+          "borderlessRipple": false,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": false,
+          "onPress": [Function],
+          "ripple": null,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders with styling in the androidContainer should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={
+      Object {
+        "borderRadius": 20,
+      }
+    }
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "borderRadius": 20,
+          "padding": 20,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DummyTouchableNativeFeedback
+        androidContainer={
+          Object {
+            "borderRadius": 20,
+          }
+        }
+        background={Object {}}
+        borderlessRipple={false}
+        disabled={false}
+        onPress={[Function]}
+        ripple={null}
+        style={Object {}}
+      >
+        <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "borderRadius": 20,
+                "padding": 20,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>
+      </DummyTouchableNativeFeedback>,
+      "style": Array [
+        Object {
+          "borderRadius": 20,
+        },
+        Object {
+          "overflow": "hidden",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "androidContainer": Object {
+          "borderRadius": 20,
+        },
+        "background": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={Object {}}
+        >
+          <Component
+            style={
+              Object {
+                "borderRadius": 20,
+                "padding": 20,
+              }
+            }
+          >
+            This is touchable!
+          </Component>
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Component
+            style={
+              Object {
+                "borderRadius": 20,
+                "padding": 20,
+              }
+            }
+          >
+            This is touchable!
+          </Component>,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "This is touchable!",
+            "style": Object {
+              "borderRadius": 20,
+              "padding": 20,
+            },
+          },
+          "ref": null,
+          "rendered": "This is touchable!",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DummyTouchableNativeFeedback
+          androidContainer={
+            Object {
+              "borderRadius": 20,
+            }
+          }
+          background={Object {}}
+          borderlessRipple={false}
+          disabled={false}
+          onPress={[Function]}
+          ripple={null}
+          style={Object {}}
+        >
+          <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "borderRadius": 20,
+                  "padding": 20,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>
+        </DummyTouchableNativeFeedback>,
+        "style": Array [
+          Object {
+            "borderRadius": 20,
+          },
+          Object {
+            "overflow": "hidden",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "androidContainer": Object {
+            "borderRadius": 20,
+          },
+          "background": Object {},
+          "borderlessRipple": false,
+          "children": <Component
+            style={Object {}}
+          >
+            <Component
+              style={
+                Object {
+                  "borderRadius": 20,
+                  "padding": 20,
+                }
+              }
+            >
+              This is touchable!
+            </Component>
+          </Component>,
+          "disabled": false,
+          "onPress": [Function],
+          "ripple": null,
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Component
+              style={
+                Object {
+                  "borderRadius": 20,
+                  "padding": 20,
+                }
+              }
+            >
+              This is touchable!
+            </Component>,
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "This is touchable!",
+              "style": Object {
+                "borderRadius": 20,
+                "padding": 20,
+              },
+            },
+            "ref": null,
+            "rendered": "This is touchable!",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a borderless ripple should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={true}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "androidContainer": Object {},
+      "borderlessRipple": true,
+      "children": <Component
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "disabled": false,
+      "onPress": [Function],
+      "ripple": null,
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "padding": 10,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "androidContainer": Object {},
+        "borderlessRipple": true,
+        "children": <Component
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a custom ripple should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={Object {}}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "androidContainer": Object {},
+      "borderlessRipple": false,
+      "children": <Component
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "disabled": false,
+      "onPress": [Function],
+      "ripple": Object {},
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "padding": 10,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "androidContainer": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": Object {},
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a disabled state should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={true}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "androidContainer": Object {},
+      "borderlessRipple": false,
+      "children": <Component
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "disabled": true,
+      "onPress": [Function],
+      "ripple": null,
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "padding": 10,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "androidContainer": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "disabled": true,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a highLighted state should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    highLight={true}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.85,
+      "androidContainer": Object {},
+      "borderlessRipple": false,
+      "children": <Component
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "delayPressOut": 100,
+      "disabled": false,
+      "highLight": true,
+      "onPress": [Function],
+      "ripple": null,
+      "style": Object {},
+      "underlayColor": "#efefef",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "padding": 10,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.85,
+        "androidContainer": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "delayPressOut": 100,
+        "disabled": false,
+        "highLight": true,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+        "underlayColor": "#efefef",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders the TouchableFeedback component correctly should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={Object {}}
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "androidContainer": Object {},
+      "borderlessRipple": false,
+      "children": <Component
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "disabled": false,
+      "onPress": [Function],
+      "ripple": null,
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "padding": 10,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "androidContainer": Object {},
+        "borderlessRipple": false,
+        "children": <Component
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders with styling in the androidContainer should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TouchableFeedback
+    androidContainer={
+      Object {
+        "borderRadius": 20,
+      }
+    }
+    borderlessRipple={false}
+    disabled={false}
+    onPress={[Function]}
+    ripple={null}
+    style={Object {}}
+  >
+    <Component
+      style={
+        Object {
+          "borderRadius": 20,
+          "padding": 20,
+        }
+      }
+    >
+      This is touchable!
+    </Component>
+  </TouchableFeedback>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "androidContainer": Object {
+        "borderRadius": 20,
+      },
+      "borderlessRipple": false,
+      "children": <Component
+        style={
+          Object {
+            "borderRadius": 20,
+            "padding": 20,
+          }
+        }
+      >
+        This is touchable!
+      </Component>,
+      "disabled": false,
+      "onPress": [Function],
+      "ripple": null,
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "This is touchable!",
+        "style": Object {
+          "borderRadius": 20,
+          "padding": 20,
+        },
+      },
+      "ref": null,
+      "rendered": "This is touchable!",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "androidContainer": Object {
+          "borderRadius": 20,
+        },
+        "borderlessRipple": false,
+        "children": <Component
+          style={
+            Object {
+              "borderRadius": 20,
+              "padding": 20,
+            }
+          }
+        >
+          This is touchable!
+        </Component>,
+        "disabled": false,
+        "onPress": [Function],
+        "ripple": null,
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "This is touchable!",
+          "style": Object {
+            "borderRadius": 20,
+            "padding": 20,
+          },
+        },
+        "ref": null,
+        "rendered": "This is touchable!",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
