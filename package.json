@@ -23,7 +23,9 @@
     "jest": "^23.4.1",
     "jest-react-native": "^18.0.0",
     "react-dom": "^16.4.1",
-    "react-test-renderer": "16.4.1"
+    "react-native-storybook-loader": "^1.8.0",
+    "react-test-renderer": "16.4.1",
+    "storybook-addon-jsx": "^5.4.0"
   },
   "scripts": {
     "start": "react-native start",
@@ -31,6 +33,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint -c .eslintrc --ext .js src",
     "lint:fix": "eslint -c .eslintrc --ext .js src --fix",
+    "prestorybook": "rnstl",
     "storybook": "storybook start -p 7007",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -60,5 +63,14 @@
     "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./src"
+      ],
+      "pattern": "**/*.story.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
   }
 }

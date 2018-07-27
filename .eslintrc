@@ -76,6 +76,7 @@
           "**/shallowTestHelper.js", 
           "**/storybook/*/*.js",
           "**/storybook/*.js",
+          "**/*.story.js",
           "setupJest.js"
         ]
       }
