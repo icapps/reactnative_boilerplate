@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a borderless ripple should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a borderless ripple should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={true}
     disabled={false}
     onPress={[Function]}
@@ -35,7 +35,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={Object {}}
+        androidContainerStyle={Object {}}
         background={Object {}}
         borderlessRipple={true}
         disabled={false}
@@ -68,7 +68,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": true,
         "children": <Component
@@ -134,7 +134,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={Object {}}
+          androidContainerStyle={Object {}}
           background={Object {}}
           borderlessRipple={true}
           disabled={false}
@@ -167,7 +167,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {},
+          "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": true,
           "children": <Component
@@ -237,12 +237,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a custom ripple should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a custom ripple should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     onPress={[Function]}
@@ -272,7 +272,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={Object {}}
+        androidContainerStyle={Object {}}
         background={Object {}}
         borderlessRipple={false}
         disabled={false}
@@ -307,7 +307,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
         "children": <Component
@@ -373,7 +373,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={Object {}}
+          androidContainerStyle={Object {}}
           background={Object {}}
           borderlessRipple={false}
           disabled={false}
@@ -408,7 +408,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {},
+          "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
           "children": <Component
@@ -478,12 +478,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a disabled state should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a disabled state should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={true}
     onPress={[Function]}
@@ -513,7 +513,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={Object {}}
+        androidContainerStyle={Object {}}
         background={Object {}}
         borderlessRipple={false}
         disabled={true}
@@ -548,7 +548,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
         "children": <Component
@@ -614,7 +614,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={Object {}}
+          androidContainerStyle={Object {}}
           background={Object {}}
           borderlessRipple={false}
           disabled={true}
@@ -649,7 +649,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {},
+          "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
           "children": <Component
@@ -719,12 +719,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders a highLighted state should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a highLighted state should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     highLight={true}
@@ -755,7 +755,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={Object {}}
+        androidContainerStyle={Object {}}
         background={Object {}}
         borderlessRipple={false}
         disabled={false}
@@ -791,7 +791,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
         "children": <Component
@@ -858,7 +858,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={Object {}}
+          androidContainerStyle={Object {}}
           background={Object {}}
           borderlessRipple={false}
           disabled={false}
@@ -894,7 +894,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {},
+          "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
           "children": <Component
@@ -965,12 +965,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders the TouchableFeedback component correctly should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders the TouchableFeedback component correctly should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     onPress={[Function]}
@@ -1000,7 +1000,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={Object {}}
+        androidContainerStyle={Object {}}
         background={Object {}}
         borderlessRipple={false}
         disabled={false}
@@ -1035,7 +1035,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
         "children": <Component
@@ -1101,7 +1101,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={Object {}}
+          androidContainerStyle={Object {}}
           background={Object {}}
           borderlessRipple={false}
           disabled={false}
@@ -1136,7 +1136,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {},
+          "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
           "children": <Component
@@ -1206,12 +1206,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for Android renders with styling in the androidContainer should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders with styling in the androidContainer should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={
+    androidContainerStyle={
       Object {
         "borderRadius": 20,
       }
@@ -1246,7 +1246,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <DummyTouchableNativeFeedback
-        androidContainer={
+        androidContainerStyle={
           Object {
             "borderRadius": 20,
           }
@@ -1288,7 +1288,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "androidContainer": Object {
+        "androidContainerStyle": Object {
           "borderRadius": 20,
         },
         "background": Object {},
@@ -1359,7 +1359,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <DummyTouchableNativeFeedback
-          androidContainer={
+          androidContainerStyle={
             Object {
               "borderRadius": 20,
             }
@@ -1401,7 +1401,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "androidContainer": Object {
+          "androidContainerStyle": Object {
             "borderRadius": 20,
           },
           "background": Object {},
@@ -1476,12 +1476,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a borderless ripple should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a borderless ripple should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={true}
     disabled={false}
     onPress={[Function]}
@@ -1511,7 +1511,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.2,
-      "androidContainer": Object {},
+      "androidContainerStyle": Object {},
       "borderlessRipple": true,
       "children": <Component
         style={
@@ -1551,7 +1551,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.2,
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "borderlessRipple": true,
         "children": <Component
           style={
@@ -1595,12 +1595,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a custom ripple should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a custom ripple should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     onPress={[Function]}
@@ -1630,7 +1630,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.2,
-      "androidContainer": Object {},
+      "androidContainerStyle": Object {},
       "borderlessRipple": false,
       "children": <Component
         style={
@@ -1670,7 +1670,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.2,
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "borderlessRipple": false,
         "children": <Component
           style={
@@ -1714,12 +1714,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a disabled state should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a disabled state should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={true}
     onPress={[Function]}
@@ -1749,7 +1749,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.2,
-      "androidContainer": Object {},
+      "androidContainerStyle": Object {},
       "borderlessRipple": false,
       "children": <Component
         style={
@@ -1789,7 +1789,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.2,
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "borderlessRipple": false,
         "children": <Component
           style={
@@ -1833,12 +1833,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders a highLighted state should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a highLighted state should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     highLight={true}
@@ -1869,7 +1869,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.85,
-      "androidContainer": Object {},
+      "androidContainerStyle": Object {},
       "borderlessRipple": false,
       "children": <Component
         style={
@@ -1912,7 +1912,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.85,
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "borderlessRipple": false,
         "children": <Component
           style={
@@ -1959,12 +1959,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders the TouchableFeedback component correctly should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders the TouchableFeedback component correctly should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={Object {}}
+    androidContainerStyle={Object {}}
     borderlessRipple={false}
     disabled={false}
     onPress={[Function]}
@@ -1994,7 +1994,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.2,
-      "androidContainer": Object {},
+      "androidContainerStyle": Object {},
       "borderlessRipple": false,
       "children": <Component
         style={
@@ -2034,7 +2034,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.2,
-        "androidContainer": Object {},
+        "androidContainerStyle": Object {},
         "borderlessRipple": false,
         "children": <Component
           style={
@@ -2078,12 +2078,12 @@ ShallowWrapper {
 }
 `;
 
-exports[`<TouchableFeedback> component TouchableFeedback> component for iOS renders with styling in the androidContainer should match the snapshot 1`] = `
+exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders with styling in the androidContainer should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
-    androidContainer={
+    androidContainerStyle={
       Object {
         "borderRadius": 20,
       }
@@ -2118,7 +2118,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeOpacity": 0.2,
-      "androidContainer": Object {
+      "androidContainerStyle": Object {
         "borderRadius": 20,
       },
       "borderlessRipple": false,
@@ -2162,7 +2162,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeOpacity": 0.2,
-        "androidContainer": Object {
+        "androidContainerStyle": Object {
           "borderRadius": 20,
         },
         "borderlessRipple": false,

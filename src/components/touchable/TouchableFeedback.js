@@ -45,7 +45,7 @@ class TouchableFeedback extends PureComponent {
   };
 
   renderAndroid = () => (
-    <View style={[this.props.androidContainer, !this.props.borderlessRipple && style.androidContainer]}>
+    <View style={[this.props.androidContainerStyle, !this.props.borderlessRipple && style.androidContainer]}>
       <TouchableNativeFeedback
         {...this.props}
         style={{}} // empty style, to override the style object from props
@@ -77,7 +77,7 @@ TouchableFeedback.propTypes = {
   borderlessRipple: PropTypes.bool,
   ripple: PropTypes.object,
   highLight: PropTypes.bool,
-  androidContainer: PropTypes.object,
+  androidContainerStyle: PropTypes.object,
 };
 
 TouchableFeedback.defaultProps = {
@@ -85,7 +85,7 @@ TouchableFeedback.defaultProps = {
   ripple: null,
   borderlessRipple: false,
   style: {},
-  androidContainer: {},
+  androidContainerStyle: {},
 };
 
 export default TouchableFeedback;

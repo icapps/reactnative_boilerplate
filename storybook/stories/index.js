@@ -34,7 +34,7 @@ storiesOf('TouchableFeedback', module)
     </TouchableFeedback>
   ))
   .add('example with borderRadius', () => (
-    <TouchableFeedback onPress={action('clicked-text')} androidContainer={{ borderRadius: 20 }}>
+    <TouchableFeedback onPress={action('clicked-text')} androidContainerStyle={{ borderRadius: 20 }}>
       <RNText style={{ padding: 20, borderRadius: 20 }}>This is touchable!</RNText>
     </TouchableFeedback>
   ));
