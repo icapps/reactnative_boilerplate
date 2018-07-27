@@ -1,0 +1,11 @@
+//
+//  Shared.xcconfig
+//  Boilerplate
+//
+//  Created by Dylan Gyesbreghs on 27/07/2018.
+//  Copyright © 2018 icapps. All rights reserved.
+//
+
+CODE_SIGN_IDENTITY = iPhone Distribution
+DEVELOPMENT_TEAM = FAJTRUZ6J9
+

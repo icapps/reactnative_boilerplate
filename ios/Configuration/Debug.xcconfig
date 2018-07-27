@@ -1,0 +1,12 @@
+//
+//  Debug.xcconfig
+//  Boilerplate
+//
+//  Created by Dylan Gyesbreghs on 27/07/2018.
+//  Copyright © 2018 icapps. All rights reserved.
+//
+#include "Shared.xcconfig"
+
+CODE_SIGN_IDENTITY = iPhone Developer
+PROVISIONING_PROFILE_SPECIFIER = Boilerplate Debug
+PRODUCT_BUNDLE_IDENTIFIER = com.icapps.boilerplate.debug
