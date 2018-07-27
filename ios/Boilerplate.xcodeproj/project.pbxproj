@@ -13,6 +13,8 @@
 		48E603E7210B9F1D00B4ABC8 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 48E603E4210B9F1D00B4ABC8 /* Beta.xcconfig */; };
 		48E603E8210B9F1D00B4ABC8 /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 48E603E5210B9F1D00B4ABC8 /* Alpha.xcconfig */; };
 		48E603E9210B9F1D00B4ABC8 /* AppStore.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 48E603E6210B9F1D00B4ABC8 /* AppStore.xcconfig */; };
+		48E603EC210BA06500B4ABC8 /* ReactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E603EB210BA06500B4ABC8 /* ReactController.swift */; };
+		48E603EE210BA07500B4ABC8 /* ReactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E603ED210BA07500B4ABC8 /* ReactViewController.swift */; };
 		48EA6E3D210A671900D9EA62 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA6E3C210A671900D9EA62 /* RootViewController.swift */; };
 		9705D4FE7E675F6E3F21A5EB /* Pods_Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A02B156AB8B812667973A7 /* Pods_Boilerplate.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		48E603E4210B9F1D00B4ABC8 /* Beta.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		48E603E5210B9F1D00B4ABC8 /* Alpha.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		48E603E6210B9F1D00B4ABC8 /* AppStore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStore.xcconfig; sourceTree = "<group>"; };
+		48E603EB210BA06500B4ABC8 /* ReactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactController.swift; sourceTree = "<group>"; };
+		48E603ED210BA07500B4ABC8 /* ReactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewController.swift; sourceTree = "<group>"; };
 		48EA6E37210A667100D9EA62 /* Boilerplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boilerplate-Bridging-Header.h"; sourceTree = "<group>"; };
 		48EA6E3C210A671900D9EA62 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		96CB71FE7548BB5B02B845F1 /* Pods-Boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate/Pods-Boilerplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,9 +113,19 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		48E603EA210BA05900B4ABC8 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				48E603EB210BA06500B4ABC8 /* ReactController.swift */,
+				48E603ED210BA07500B4ABC8 /* ReactViewController.swift */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
 		48EA6E3B210A670700D9EA62 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				48E603EA210BA05900B4ABC8 /* React */,
 				48EA6E3C210A671900D9EA62 /* RootViewController.swift */,
 			);
 			path = Modules;
@@ -249,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E603EC210BA06500B4ABC8 /* ReactController.swift in Sources */,
 				48EA6E3D210A671900D9EA62 /* RootViewController.swift in Sources */,
+				48E603EE210BA07500B4ABC8 /* ReactViewController.swift in Sources */,
 				48498C38210A635C0013A18E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
