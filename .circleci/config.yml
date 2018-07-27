@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:8
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - restore_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: System Information
+          command: |
+            echo "Node $(node -v)"
+            echo "Yarn v$(yarn --version)"
+      - run: yarn
+      - save_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/pilot/node_modules
+            - ~/.cache/yarn/
