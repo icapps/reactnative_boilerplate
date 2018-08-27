@@ -1,0 +1,246 @@
+fastlane_version “2.93.1”
+require ‘java-properties’
+
+# Don't generate README files.
+skip_docs
+
+# Make sure all changes are committed.
+before_all do |lane|
+ clean_build_artifacts
+end
+
+#######################
+###  CONFIGURATION  ###
+#######################
+
+# Job Config
+NAME_APP = 'React Native Boilerplate'
+JENKINS_VIEW = 'ReactNativeBoilerplate'
+
+# iOS Config
+IOS_WORKSPACE = 'React_Native_Boilerplate.xcworkspace'
+IOS_PROJECT =   'React_Native_Boilerplate.xcodeproj'
+
+ALPHA_APP_ID =   'com.icapps.app.alpha'
+ALPHA_PROFILE_NAME = 'React Native Boilerplate Alpha'
+
+BETA_APP_ID =   'com.icapps.app.beta'
+BETA_PROFILE_NAME = 'React Native Boilerplate Beta'
+
+RELEASE_APP_ID =   'com.icapps.app'
+RELEASE_PROFILE_NAME = 'React Native Boilerplate App Store'
+
+##############################
+###  PUBLIC LANES ANDROID  ###
+##############################
+
+lane :android_alpha do
+  bundle_upload_android(buildType: 'alpha')
+end
+
+lane :android_beta do
+  bundle_upload_android(buildType: 'beta')
+end
+
+lane :android_release do
+  bundle_upload_android(buildType: 'release')
+end
+
+##########################
+###  PUBLIC LANES IOS  ###
+##########################
+
+lane :ios_alpha do
+  bundle_upload_ios(scheme_name: "Alpha")
+  build_ios(export_options: export_options_for(:alpha)) # Build IPA
+  upload_to_hockey_ios(releaseType: 'alpha')  # Upload IPA to hockey app
+  commit_tag_and_push_ios(branch: 'develop')  # commit version bump and make a git tag and push to devlop
+end
+
+lane :ios_beta do
+  bundle_upload_ios(scheme_name: "Beta")
+  build_ios(export_options: export_options_for(:beta)) # Build IPA
+  upload_to_hockey_ios(releaseType: 'beta')   # Upload IPA to hockey app
+  commit_tag_and_push(branch: 'beta')     # commit version bump and make a git tag and push to devlop
+end
+
+lane :ios_release do
+  bundle_upload_ios(scheme_name: "AppStore")
+  build_ios(
+    configuration: 'AppStore',
+    export_options: export_options_for(:appstore)
+  )                                       # Build IPA
+  upload_to_test_flight_ios if is_ci?     # Upload IPA to testflight
+  commit_tag_and_push(branch: 'master')   # commit version bump and make a git tag and push to devlop
+end
+
+################################
+###   PRIVATE LANES ANDROID  ###
+################################
+
+private_lane :bundle_upload_android do |options|
+  ensure_git_status_clean         # Make sure the repository is clean before starting with the beta deployment process.
+  install_dependencies            # yarn will ensure all needed dependencies are downloaded.
+  update_translations             # Get the latest translations
+  version_bump_android            # Bump the build version.
+  push_to_git_remote              # Push the changes to the origin.
+  build_android(buildType: options[:buildType])  # Build the application with the buildVariant.
+  upload_to_hockey_android(buildType: options[:buildType]) # Deploy the apk to HockeyApp.
+  add_tag_android                 # Add tag
+  push_to_git_remote              # Push the changes to the origin.
+end
+
+private_lane :upload_to_hockey_android do |options|
+  hockey(
+    release_type: options[:buildType] == 'alpha' ? "2" : "0",  # We set the release type to be beta.
+    status:       '2',                                            # The status is available for download.
+    ipa: "./android/app/build/outputs/apk/#{options[:buildType]}/app-#{options[:buildType]}.apk" # Only BuildTypes
+    # ipa: "./app/build/outputs/apk/#{options[:flavor]}/#{options[:buildType]}/app-#{options[:flavor]}-#{options[:buildType]}.apk" # BuildTypes and Flavors
+  )
+end
+
+private_lane :build_android do |options|
+  sh "cd ../android/; ./gradlew clean app:assemble#{options[:buildType]}"
+end
+
+private_lane :version_bump_android do
+  properties = JavaProperties.load("../android/app/gradle.properties")
+  properties[:buildNumber] = properties[:buildNumber].to_i + 1
+  @last_commit = properties[:githash]
+  properties[:githash] = `git rev-parse --short HEAD`.strip
+  JavaProperties.write(properties,"../android/app/gradle.properties")
+  commit_version_android
+end
+
+private_lane :commit_version_android do
+  git_commit(
+    path: './android/app/gradle.properties',
+    message: 'Version bump'
+  )
+end
+
+private_lane :add_tag_android do
+  properties = JavaProperties.load("../android/app/gradle.properties")
+  add_git_tag(
+    build_number: properties[:buildNumber]
+  )
+end
+
+###########################
+###  PRIVATE LANES IOS  ###
+###########################
+
+private_lane :bundle_upload_ios do |options|
+  ensure_git_status_clean                 # Make sure the repository is clean before starting with the beta deployment process.
+  install_dependencies                    # yarn will ensure all needed dependencies are downloaded.
+  update_translations                     # Get the latest translations
+  commit_translations                     # Commit the new translations
+  prepare_xcconfig(scheme_name: options[:scheme_name])  # Use the correct scheme
+  increment_build_number                  # Updated the version
+end
+
+private_lane :upload_to_hockey_ios do |options|
+  hockey(
+    status:       '2', # The status is available for download.
+    release_type: options[:releaseType] == 'alpha' ? "2" : "0", # We set the release type to be beta.
+  )
+end
+
+private_lane :build_ios do |options|
+  gym(
+    clean: true,
+    configuration:  options[:configuration],
+    export_options: options[:export_options]
+  )
+end
+
+private_lane :commit_tag_and_push_ios do |options|
+  commit_version_bump(
+    force:     true,
+    xcodeproj: PROJECT
+  )
+  add_git_tag()
+  push_to_git_remote(
+    local_branch: options[:branch],
+    remote_branch: options[:branch]
+  )
+end
+
+private_lane :upload_to_test_flight_ios do
+  testflight(
+    skip_submission: true # Don't automagically submit for review.
+  )
+end
+
+def export_options_for(configuration)
+  if configuration == :alpha
+    {
+      method: 'enterprise',
+      provisioningProfiles: {
+        ALPHA_APP_ID => ALPHA_PROFILE_NAME
+      }
+    }
+  elsif configuration == :beta
+    {
+      method: 'enterprise',
+      provisioningProfiles: {
+        BETA_APP_ID => BETA_PROFILE_NAME
+      }
+    }
+  elsif configuration == :appstore
+    {
+      method: 'app-store',
+      provisioningProfiles: {
+        RELEASE_APP_ID => RELEASE_PROFILE_NAME
+      }
+    }
+  end
+end
+
+###############
+### GENERAL ###
+###############
+
+private_lane :install_dependencies do
+  sh("yarn")
+end
+
+private_lane :commit_translations do
+  git_commit(
+    path: './labels/*',
+    message: 'Updated Translations'
+  )
+end
+
+#################
+### CALLBACKS ###
+#################
+
+after_all do |lane|
+  post_to_slack(
+    success: true
+  )
+end
+
+error do |lane, exception|
+  post_to_slack(
+    success: false,
+    message: exception.message
+  ) if ENV['SLACK_URL']
+end
+
+# Show the slack message in slack when the @slack variable is defined.
+# When the job failed trigger the failed block.
+private_lane :post_to_slack do |lane|
+  slack(
+    message:          "#{NAME_APP}: #{lane[:message]}",
+    channel:          '#jenkins',
+    success:          lane[:success],
+    default_payloads: [:lane, :test_result],
+    attachment_properties: {
+      title:      NAME_APP,
+      title_url:  "#{ENV['JENKINS_URL']}/job/reactnative-builds/view/#{JENKINS_VIEW}"
+    }
+  ) if ENV['SLACK_URL']
+
+end

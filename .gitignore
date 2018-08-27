@@ -41,3 +41,6 @@ npm-debug.log
 yarn-error.log
 package-lock.json
 coverage/
+
+# fastlane
+fastlane/report.xml
