@@ -2,7 +2,6 @@
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a borderless ripple should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -12,7 +11,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -20,12 +19,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -43,10 +43,10 @@ ShallowWrapper {
         ripple={null}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -54,8 +54,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {},
@@ -71,10 +71,10 @@ ShallowWrapper {
         "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": true,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -82,8 +82,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -95,7 +95,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "padding": 10,
@@ -103,7 +103,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -142,10 +142,10 @@ ShallowWrapper {
           ripple={null}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -153,8 +153,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {},
@@ -170,10 +170,10 @@ ShallowWrapper {
           "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": true,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -181,8 +181,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": false,
           "onPress": [Function],
           "ripple": null,
@@ -194,7 +194,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "padding": 10,
@@ -202,7 +202,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -231,6 +231,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -239,7 +249,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a custom ripple should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -249,7 +258,7 @@ ShallowWrapper {
     ripple={Object {}}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -257,12 +266,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -280,10 +290,10 @@ ShallowWrapper {
         ripple={Object {}}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -291,8 +301,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {},
@@ -310,10 +320,10 @@ ShallowWrapper {
         "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -321,8 +331,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": false,
         "onPress": [Function],
         "ripple": Object {},
@@ -334,7 +344,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "padding": 10,
@@ -342,7 +352,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -381,10 +391,10 @@ ShallowWrapper {
           ripple={Object {}}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -392,8 +402,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {},
@@ -411,10 +421,10 @@ ShallowWrapper {
           "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -422,8 +432,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": false,
           "onPress": [Function],
           "ripple": Object {},
@@ -435,7 +445,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "padding": 10,
@@ -443,7 +453,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -472,6 +482,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -480,7 +500,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a disabled state should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -490,7 +509,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -498,12 +517,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -521,10 +541,10 @@ ShallowWrapper {
         ripple={null}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -532,8 +552,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {},
@@ -551,10 +571,10 @@ ShallowWrapper {
         "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -562,8 +582,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": true,
         "onPress": [Function],
         "ripple": null,
@@ -575,7 +595,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "padding": 10,
@@ -583,7 +603,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -622,10 +642,10 @@ ShallowWrapper {
           ripple={null}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -633,8 +653,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {},
@@ -652,10 +672,10 @@ ShallowWrapper {
           "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -663,8 +683,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": true,
           "onPress": [Function],
           "ripple": null,
@@ -676,7 +696,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "padding": 10,
@@ -684,7 +704,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -713,6 +733,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -721,7 +751,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders a highLighted state should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -732,7 +761,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -740,12 +769,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -764,10 +794,10 @@ ShallowWrapper {
         ripple={null}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -775,8 +805,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {},
@@ -794,10 +824,10 @@ ShallowWrapper {
         "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -805,8 +835,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": false,
         "highLight": true,
         "onPress": [Function],
@@ -819,7 +849,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "padding": 10,
@@ -827,7 +857,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -867,10 +897,10 @@ ShallowWrapper {
           ripple={null}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -878,8 +908,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {},
@@ -897,10 +927,10 @@ ShallowWrapper {
           "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -908,8 +938,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": false,
           "highLight": true,
           "onPress": [Function],
@@ -922,7 +952,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "padding": 10,
@@ -930,7 +960,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -959,6 +989,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -967,7 +1007,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders the TouchableFeedback component correctly should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -977,7 +1016,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -985,12 +1024,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1008,10 +1048,10 @@ ShallowWrapper {
         ripple={null}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -1019,8 +1059,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {},
@@ -1038,10 +1078,10 @@ ShallowWrapper {
         "androidContainerStyle": Object {},
         "background": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "padding": 10,
@@ -1049,8 +1089,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -1062,7 +1102,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "padding": 10,
@@ -1070,7 +1110,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -1109,10 +1149,10 @@ ShallowWrapper {
           ripple={null}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -1120,8 +1160,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {},
@@ -1139,10 +1179,10 @@ ShallowWrapper {
           "androidContainerStyle": Object {},
           "background": Object {},
           "borderlessRipple": false,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "padding": 10,
@@ -1150,8 +1190,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": false,
           "onPress": [Function],
           "ripple": null,
@@ -1163,7 +1203,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "padding": 10,
@@ -1171,7 +1211,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -1200,6 +1240,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1208,7 +1258,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for Android renders with styling in the androidContainer should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={
@@ -1222,7 +1271,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "borderRadius": 20,
@@ -1231,12 +1280,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1258,10 +1308,10 @@ ShallowWrapper {
         ripple={null}
         style={Object {}}
       >
-        <Component
+        <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "borderRadius": 20,
@@ -1270,8 +1320,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>
+          </Text>
+        </View>
       </DummyTouchableNativeFeedback>,
       "style": Array [
         Object {
@@ -1293,10 +1343,10 @@ ShallowWrapper {
         },
         "background": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <View
           style={Object {}}
         >
-          <Component
+          <Text
             style={
               Object {
                 "borderRadius": 20,
@@ -1305,8 +1355,8 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>
-        </Component>,
+          </Text>
+        </View>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -1318,7 +1368,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Component
+          "children": <Text
             style={
               Object {
                 "borderRadius": 20,
@@ -1327,7 +1377,7 @@ ShallowWrapper {
             }
           >
             This is touchable!
-          </Component>,
+          </Text>,
           "style": Object {},
         },
         "ref": null,
@@ -1371,10 +1421,10 @@ ShallowWrapper {
           ripple={null}
           style={Object {}}
         >
-          <Component
+          <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "borderRadius": 20,
@@ -1383,8 +1433,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>
+            </Text>
+          </View>
         </DummyTouchableNativeFeedback>,
         "style": Array [
           Object {
@@ -1406,10 +1456,10 @@ ShallowWrapper {
           },
           "background": Object {},
           "borderlessRipple": false,
-          "children": <Component
+          "children": <View
             style={Object {}}
           >
-            <Component
+            <Text
               style={
                 Object {
                   "borderRadius": 20,
@@ -1418,8 +1468,8 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>
-          </Component>,
+            </Text>
+          </View>,
           "disabled": false,
           "onPress": [Function],
           "ripple": null,
@@ -1431,7 +1481,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Component
+            "children": <Text
               style={
                 Object {
                   "borderRadius": 20,
@@ -1440,7 +1490,7 @@ ShallowWrapper {
               }
             >
               This is touchable!
-            </Component>,
+            </Text>,
             "style": Object {},
           },
           "ref": null,
@@ -1470,6 +1520,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1478,7 +1538,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a borderless ripple should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -1488,7 +1547,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -1496,12 +1555,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1513,7 +1573,7 @@ ShallowWrapper {
       "activeOpacity": 0.2,
       "androidContainerStyle": Object {},
       "borderlessRipple": true,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "padding": 10,
@@ -1521,7 +1581,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "disabled": false,
       "onPress": [Function],
       "ripple": null,
@@ -1553,7 +1613,7 @@ ShallowWrapper {
         "activeOpacity": 0.2,
         "androidContainerStyle": Object {},
         "borderlessRipple": true,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "padding": 10,
@@ -1561,7 +1621,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -1589,6 +1649,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1597,7 +1667,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a custom ripple should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -1607,7 +1676,7 @@ ShallowWrapper {
     ripple={Object {}}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -1615,12 +1684,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1632,7 +1702,7 @@ ShallowWrapper {
       "activeOpacity": 0.2,
       "androidContainerStyle": Object {},
       "borderlessRipple": false,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "padding": 10,
@@ -1640,7 +1710,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "disabled": false,
       "onPress": [Function],
       "ripple": Object {},
@@ -1672,7 +1742,7 @@ ShallowWrapper {
         "activeOpacity": 0.2,
         "androidContainerStyle": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "padding": 10,
@@ -1680,7 +1750,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "disabled": false,
         "onPress": [Function],
         "ripple": Object {},
@@ -1708,6 +1778,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1716,7 +1796,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a disabled state should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -1726,7 +1805,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -1734,12 +1813,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1751,7 +1831,7 @@ ShallowWrapper {
       "activeOpacity": 0.2,
       "androidContainerStyle": Object {},
       "borderlessRipple": false,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "padding": 10,
@@ -1759,7 +1839,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "disabled": true,
       "onPress": [Function],
       "ripple": null,
@@ -1791,7 +1871,7 @@ ShallowWrapper {
         "activeOpacity": 0.2,
         "androidContainerStyle": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "padding": 10,
@@ -1799,7 +1879,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "disabled": true,
         "onPress": [Function],
         "ripple": null,
@@ -1827,6 +1907,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1835,7 +1925,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders a highLighted state should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -1846,7 +1935,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -1854,12 +1943,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1871,7 +1961,7 @@ ShallowWrapper {
       "activeOpacity": 0.85,
       "androidContainerStyle": Object {},
       "borderlessRipple": false,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "padding": 10,
@@ -1879,7 +1969,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "delayPressOut": 100,
       "disabled": false,
       "highLight": true,
@@ -1914,7 +2004,7 @@ ShallowWrapper {
         "activeOpacity": 0.85,
         "androidContainerStyle": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "padding": 10,
@@ -1922,7 +2012,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "delayPressOut": 100,
         "disabled": false,
         "highLight": true,
@@ -1953,6 +2043,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -1961,7 +2061,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders the TouchableFeedback component correctly should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={Object {}}
@@ -1971,7 +2070,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "padding": 10,
@@ -1979,12 +2078,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1996,7 +2096,7 @@ ShallowWrapper {
       "activeOpacity": 0.2,
       "androidContainerStyle": Object {},
       "borderlessRipple": false,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "padding": 10,
@@ -2004,7 +2104,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "disabled": false,
       "onPress": [Function],
       "ripple": null,
@@ -2036,7 +2136,7 @@ ShallowWrapper {
         "activeOpacity": 0.2,
         "androidContainerStyle": Object {},
         "borderlessRipple": false,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "padding": 10,
@@ -2044,7 +2144,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -2072,6 +2172,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -2080,7 +2190,6 @@ ShallowWrapper {
 
 exports[`<TouchableFeedback> component <TouchableFeedback> component for iOS renders with styling in the androidContainer should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TouchableFeedback
     androidContainerStyle={
@@ -2094,7 +2203,7 @@ ShallowWrapper {
     ripple={null}
     style={Object {}}
   >
-    <Component
+    <Text
       style={
         Object {
           "borderRadius": 20,
@@ -2103,12 +2212,13 @@ ShallowWrapper {
       }
     >
       This is touchable!
-    </Component>
+    </Text>
   </TouchableFeedback>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -2122,7 +2232,7 @@ ShallowWrapper {
         "borderRadius": 20,
       },
       "borderlessRipple": false,
-      "children": <Component
+      "children": <Text
         style={
           Object {
             "borderRadius": 20,
@@ -2131,7 +2241,7 @@ ShallowWrapper {
         }
       >
         This is touchable!
-      </Component>,
+      </Text>,
       "disabled": false,
       "onPress": [Function],
       "ripple": null,
@@ -2166,7 +2276,7 @@ ShallowWrapper {
           "borderRadius": 20,
         },
         "borderlessRipple": false,
-        "children": <Component
+        "children": <Text
           style={
             Object {
               "borderRadius": 20,
@@ -2175,7 +2285,7 @@ ShallowWrapper {
           }
         >
           This is touchable!
-        </Component>,
+        </Text>,
         "disabled": false,
         "onPress": [Function],
         "ripple": null,
@@ -2204,6 +2314,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
