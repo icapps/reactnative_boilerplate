@@ -1,12 +1,9 @@
 {
   "presets": [
-    "babel-preset-react-native"
+    "module:metro-react-native-babel-preset"
   ],
-  "env": {
-    "development": {
-      "plugins": [
-        "@babel/transform-react-jsx-source"
-      ]
-    }
-  }
+  "plugins": [
+    "@babel/transform-react-jsx-source",
+    "@babel/plugin-proposal-nullish-coalescing-operator"
+  ],
 }
