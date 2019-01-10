@@ -1,11 +1,21 @@
 import React from 'react';
 import { ActivityIndicator, View } from 'react-native';
 import PropTypes from 'prop-types';
-import styles from './Home.styles';
+
+import StorybookUI from '../../../storybook';
 import { Colors, Translations } from '../../utils';
 import { Text, TouchableFeedback } from '../../components';
 
+import styles from './Home.styles';
+
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      storyBooksLoaded: false,
+    };
+  }
+
   login = () => {
     this.props.login({
       email: 'reactnative@icapps.com',
@@ -13,9 +23,15 @@ class Home extends React.Component {
     });
   };
 
+  renderStorybook = () => { this.setState({ storyBooksLoaded: true }); }
+
   render() {
+    if (this.state.storyBooksLoaded) {
+      return <StorybookUI />;
+    }
     return (
-      <View style={styles.container}>
+
+      < View style={styles.container} >
         <View>
           <Text center style={styles.lead} label='home_description' />
 
@@ -41,7 +57,11 @@ class Home extends React.Component {
         <TouchableFeedback style={styles.button} onPress={this.login}>
           <Text white center bold label="home_action" />
         </TouchableFeedback>
-      </View>
+
+        <TouchableFeedback style={styles.button} onPress={this.renderStorybook}>
+          <Text white center bold label="storybook_action" />
+        </TouchableFeedback>
+      </View >
     );
   }
 }

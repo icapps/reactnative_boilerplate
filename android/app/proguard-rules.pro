@@ -68,3 +68,10 @@
 -dontwarn java.nio.file.*
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
 -dontwarn okio.**
+
+# react-native-config
+-keep class com.icapps.fosbury.BuildConfig { *; }
+
+# devsupport --> Needed to run debuggable builds with proguard
+-keep class com.facebook.react.devsupport.** { *; }
+-dontwarn com.facebook.react.devsupport.**

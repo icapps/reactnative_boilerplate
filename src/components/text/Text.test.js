@@ -78,6 +78,9 @@ describe('<Text> component', () => {
 
   test('should transform a text to uppercase', () => {
     const wrapper = shallow(<Text uppercase label='ok' />);
-    expect(wrapper.dive().text()).toEqual('OK');
+    expect(wrapper
+      .find('Text')
+      .props()
+      .children).toEqual('OK');
   });
 });
