@@ -112,6 +112,8 @@ android {
         debug {
             applicationIdSuffix ".debug"
             versionNameSuffix "-debug"
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.debug
             matchingFallbacks = ['debug']
             manifestPlaceholders = [excludeSystemAlertWindowPermission: "false"]
@@ -121,7 +123,8 @@ android {
             applicationIdSuffix ".alpha"
             versionNameSuffix "-alpha"
             debuggable true
-            minifyEnabled false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.debug
             matchingFallbacks = ['debug']
             manifestPlaceholders = [excludeSystemAlertWindowPermission: "false"]
