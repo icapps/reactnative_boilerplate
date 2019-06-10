@@ -35,6 +35,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+Pods/
 
 # node.js
 node_modules/
@@ -42,3 +43,4 @@ npm-debug.log
 yarn-error.log
 package-lock.json
 coverage/
+.DS_Store
